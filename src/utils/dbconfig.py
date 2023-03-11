@@ -7,8 +7,8 @@ def dbconfig():
     try:
         db=mysql.connector.connect(
          host='localhost',
-         user='SafeWord',
-         passwd='password'
+         user='anish',
+         passwd='rdbmsmysqloracle'
         )   
     except Exception as e:
         console.print_exception(show_locals=True)
